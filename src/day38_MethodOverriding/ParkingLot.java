@@ -6,5 +6,7 @@ public class ParkingLot {
         Tesla tesla=new Tesla("Tesla","Model S", 2022, 54000, "White", 125);
         BMW bmw=new BMW("BMW", "330",2021,35000,"White",150);
         System.out.println(tesla);
+
+        toyota.start();
     }
 }
