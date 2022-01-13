@@ -17,10 +17,10 @@ public class Car {
     }
 
     public void start(){
-        System.out.println();
+        System.out.println(brand+" starts");
     }
     public void drive(){
-        System.out.println();
+        System.out.println(brand+" drives");
     }
 
     @Override
@@ -34,4 +34,5 @@ public class Car {
                 ", miles=" + miles +
                 '}';
     }
+
 }
